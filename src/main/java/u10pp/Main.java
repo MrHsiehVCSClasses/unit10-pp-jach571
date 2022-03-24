@@ -4,8 +4,6 @@ import java.util.*;
 public class Main 
 {
     public static void main(String[] args) {
-        System.out.println("Hi! This is the unit 10 programming project. Have fun! :)");
-
         // Use this space to test your code. 
         // Some example test cases are given below
 
@@ -21,15 +19,15 @@ public class Main
         // System.out.println(String.format("Is %s a palindrome? %s.",
         //     "asdfdsa", RecursivePalindromeChecker.isPalindrome("asdfdsa")));
 
-        // // simple sudoku puzzle
-        // int[][] sudokuPuzzle = {
-        //     {1, 0, 0, 0},
-        //     {2, 0, 1, 4},
-        //     {3, 1, 0, 0},
-        //     {4, 0, 0, 1}
-        // };
-        // System.out.println("\nSimple Sudoku:");
-        // System.out.println(IOHelper.formatSudokuPuzzle(SudokuSolver.solve(sudokuPuzzle)));
+        // simple sudoku puzzle
+        int[][] sudokuPuzzle = {
+            {1, 0, 0, 0},
+            {2, 0, 1, 4},
+            {3, 1, 0, 0},
+            {4, 0, 0, 1}
+        };
+        System.out.println("\nSimple Sudoku:");
+        System.out.println(IOHelper.formatSudokuPuzzle(SudokuSolver.solve(sudokuPuzzle)));
 
         // // using all the sudoku examples in sudokuPuzzles.txt
         // List<int[][]> puzzles = IOHelper.getPuzzlesFromFile("src\\main\\java\\u10pp\\sudokuPuzzles.txt");
